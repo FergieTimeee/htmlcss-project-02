@@ -112,7 +112,7 @@ a {
 
 /* Hero */
 .hero {
-    padding-top: 56px;
+    padding: 56px 0 65px;
     background: #fffcf4;
 }
 .hero .body {
@@ -130,13 +130,15 @@ a {
     height: 685px;
     object-fit: cover;
     border-radius: 20px;
+    /* vertical-align: baseline; */
+    display: block;
 }
 
 .hero .hero-summary {
     position: absolute;
     right: 0;
-    bottom: 137px;
-    padding: 28px 24px;
+    bottom: 48px;
+    padding: 24px;
     width: 270px;
     height: 244px;
     background: #ffffff;
@@ -192,7 +194,7 @@ a {
 /* Content-block */
 .hero .content-block {
     width: 52%;
-    padding: 64px 0 128px 130px;
+    padding: 64px 0 0 130px;
 }
 
 .content-block .heading {
