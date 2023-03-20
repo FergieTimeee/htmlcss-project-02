@@ -510,7 +510,7 @@ a {
 }
 /* Features */
 .features {
-    margin: 135px 0;
+    margin-top: 135px;
     padding: 65px 0;
 }
 
@@ -555,4 +555,23 @@ a {
     background-color: var(--primary-color);
     color: #fff;
     margin-top: 32px;
+}
+
+/* features-2 */
+.features-2 {
+    margin-top: 70px;
+}
+
+.features-2 .body {
+    flex-direction: row-reverse;
+}
+
+.features-2 .body img {
+    width: 470px;
+    height: 440px;
+    border-radius: 20px;
+}
+
+.features-2 .body .content {
+    width: 49%;
 }
